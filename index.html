@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad BCN - Tu vida en Barcelona, sin complicaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #ff9900;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 5%;
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .btn-outline {
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #e68a00;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 6rem 5% 4rem;
+            background: linear-gradient(135deg, #e0f2fe 0%, #ffffff 100%);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            color: #555;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 5rem 5%;
+            background-color: var(--white);
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: var(--bg-color);
+            padding: 2rem;
+            border-radius: 10px;
+            border-top: 4px solid var(--primary-color);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #222;
+        }
+
+        /* Call to Action */
+        .cta-section {
+            text-align: center;
+            padding: 5rem 5%;
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 5%;
+            background-color: #222;
+            color: #aaa;
+        }
+
+        /* AI Assistant Badge */
+        .ai-badge {
+            display: inline-flex;
+            align-items: center;
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Nomad BCN</div>
+        <a href="#contacto" class="btn btn-outline">Solicitar Información</a>
+    </nav>
+
+    <header class="hero">
+        <div class="ai-badge">✨ Asistencia inteligente 24/7 disponible</div>
+        <h1>Tu transición a España, más fácil que nunca</h1>
+        <p><strong>Nomad BCN</strong> es una plataforma digital que te guía paso a paso en los trámites de visado, estudios y trabajo. Proporcionamos requisitos personalizados, documentación necesaria y asistencia inteligente en un solo lugar.</p>
+        <a href="#servicios" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem;">Ver todos los servicios</a>
+    </header>
+
+    <section id="servicios" class="services">
+        <h2>Servicios para Nómadas y Expatriados</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Servicio Integral</h3>
+                <p>Atención completa para extranjeros que desean venir a España con la intención de residir o invertir.</p>
+            </div>
+            <div class="card">
+                <h3>Inmobiliaria VIP</h3>
+                <p>Servicio exclusivo de búsqueda de vivienda adaptada a tus necesidades y presupuesto.</p>
+            </div>
+            <div class="card">
+                <h3>Trámites y Visados</h3>
+                <p>Gestión ágil para la obtención de NIE, identificación y visados para estudiar o trabajar.</p>
+            </div>
+            <div class="card">
+                <h3>Educación y Familia</h3>
+                <p>Homologación y convalidación de estudios. Búsqueda exhaustiva de colegios o institutos para tus hijos.</p>
+            </div>
+            <div class="card">
+                <h3>Home Setup</h3>
+                <p>Gestión de alquiler y conexión a utilidades (luz, agua, internet) para que entres a vivir desde el primer día.</p>
+            </div>
+            <div class="card">
+                <h3>Atención Inteligente (Vapi.ai)</h3>
+                <p>Sistema avanzado de gestión de llamadas para resolver tus dudas al instante, sin tiempos de espera.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="cta-section">
+        <h2>¿Listo para tu nueva vida en Barcelona?</h2>
+        <p>Déjanos gestionar la burocracia mientras tú te enfocas en disfrutar tu nueva etapa.</p>
+        <a href="mailto:info@nomadbcn.com" class="btn btn-primary" style="background-color: var(--white); color: var(--primary-color);">Contacta con un asesor</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nomad BCN. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
