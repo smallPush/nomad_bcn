@@ -12,7 +12,10 @@
     <nav id="navbar">
         <div class="container">
             <a href="#" class="logo">Nomad BCN</a>
-            <a href="#contacto" class="btn btn-outline">Solicitar Información</a>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <a href="#nomad-version" class="btn btn-accent" style="padding: 0.5rem 1.25rem; font-size: 0.9rem; animation: pulse-glow 2s infinite;">✨ Nomad Version</a>
+                <a href="#contacto" class="btn btn-outline">Solicitar Información</a>
+            </div>
         </div>
     </nav>
 
@@ -93,6 +96,43 @@
             </div>
         </section>
 
+        <section id="nomad-version" class="section-padding" style="background: var(--nomad-bg); color: white; position: relative; overflow: hidden;">
+            <div class="container" style="position: relative; z-index: 2;">
+                <div style="text-align: center; margin-bottom: 4rem;" data-aos>
+                    <div class="nomad-badge">🔥 Novedad</div>
+                    <h2 style="font-size: 3rem; margin-bottom: 1rem; text-shadow: 0 0 20px rgba(255, 159, 28, 0.5);">Nomad Version</h2>
+                    <p style="color: #cbd5e1; max-width: 600px; margin: 0 auto; font-size: 1.2rem;">La suscripción definitiva para nómadas digitales. Todo lo que necesitas en un solo lugar, con acceso a beneficios exclusivos.</p>
+                </div>
+
+                <div class="nomad-cards" data-aos>
+                    <div class="nomad-card">
+                        <div class="card-icon">💻</div>
+                        <h3 style="color: white; margin-bottom: 1rem;">Coworking Pass</h3>
+                        <p style="color: #94a3b8;">Acceso ilimitado a los mejores espacios de coworking en Barcelona, con café de especialidad y salas de reuniones incluidas.</p>
+                    </div>
+                    <div class="nomad-card highlight">
+                        <div class="card-icon">🌴</div>
+                        <h3 style="color: white; margin-bottom: 1rem;">Comunidad Elite</h3>
+                        <p style="color: #94a3b8;">Eventos exclusivos cada semana, networking de alto nivel y retiros de fin de semana con otros emprendedores.</p>
+                    </div>
+                    <div class="nomad-card">
+                        <div class="card-icon">🚀</div>
+                        <h3 style="color: white; margin-bottom: 1rem;">Fast-Track Fiscal</h3>
+                        <p style="color: #94a3b8;">Asesoramiento fiscal continuo para optimizar tus impuestos bajo la Ley de Startups (Ley Beckham).</p>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 4rem;" data-aos>
+                    <a href="#contacto" class="btn btn-accent btn-large glow-effect">Quiero la Nomad Version</a>
+                </div>
+            </div>
+            
+            <!-- Creative floating elements -->
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </section>
+
         <section id="contacto" class="section-padding cta-section">
             <div class="container">
                 <div class="cta-content" data-aos>
@@ -145,6 +185,42 @@
         }, observerOptions);
 
         document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+
+        // Cookie Consent Logic
+        document.addEventListener("DOMContentLoaded", function() {
+            const cookieBanner = document.getElementById('cookie-banner');
+            const acceptBtn = document.getElementById('accept-cookies');
+            const declineBtn = document.getElementById('decline-cookies');
+
+            // Check if user has already made a choice
+            if (!localStorage.getItem('cookiesAccepted')) {
+                // Show banner with a small delay for better UX
+                setTimeout(() => {
+                    cookieBanner.style.display = 'block';
+                }, 1000);
+            }
+
+            acceptBtn.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieBanner.style.display = 'none';
+            });
+            
+            declineBtn.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'false');
+                cookieBanner.style.display = 'none';
+            });
+        });
     </script>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>Utilizamos cookies propias y de terceros para mejorar tu experiencia de usuario, personalizar contenido y analizar nuestro tráfico. Al continuar navegando, aceptas su uso. <a href="#">Política de Cookies</a>.</p>
+            <div class="cookie-buttons">
+                <button id="decline-cookies" class="btn btn-outline cookie-btn" style="background: white;">Rechazar</button>
+                <button id="accept-cookies" class="btn btn-primary cookie-btn">Aceptar</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

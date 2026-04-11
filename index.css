@@ -325,8 +325,128 @@ footer {
     transform: translateY(0);
 }
 
+/* Nomad Version */
+:root {
+    --nomad-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+.nomad-badge {
+    display: inline-block;
+    background: rgba(255, 159, 28, 0.2);
+    color: var(--accent);
+    padding: 0.5rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 159, 28, 0.5);
+    letter-spacing: 0.5px;
+}
+.nomad-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.nomad-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius);
+    padding: 2.5rem;
+    transition: var(--transition);
+    backdrop-filter: blur(10px);
+}
+.nomad-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--accent);
+}
+.nomad-card.highlight {
+    background: linear-gradient(145deg, rgba(255, 159, 28, 0.08) 0%, rgba(255, 159, 28, 0.02) 100%);
+    border-color: rgba(255, 159, 28, 0.3);
+    position: relative;
+    transform: scale(1.05);
+    z-index: 2;
+}
+.nomad-card.highlight:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+.nomad-card.highlight::before {
+    content: 'Recomendado';
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent);
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 159, 28, 0.4);
+}
+.card-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+}
+.btn-large {
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.glow-effect {
+    box-shadow: 0 0 20px rgba(255, 159, 28, 0.5);
+    animation: pulse-glow 2s infinite;
+}
+@keyframes pulse-glow {
+    0% { box-shadow: 0 0 15px rgba(255, 159, 28, 0.4); }
+    50% { box-shadow: 0 0 35px rgba(255, 159, 28, 0.8); }
+    100% { box-shadow: 0 0 15px rgba(255, 159, 28, 0.4); }
+}
+
+/* Floating Shapes */
+.floating-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 1;
+    opacity: 0.3;
+    animation: float 8s ease-in-out infinite alternate;
+}
+.shape-1 {
+    width: 300px;
+    height: 300px;
+    background: var(--accent);
+    top: -100px;
+    left: -100px;
+}
+.shape-2 {
+    width: 400px;
+    height: 400px;
+    background: var(--primary-light);
+    bottom: -150px;
+    right: -100px;
+    animation-delay: -4s;
+}
+.shape-3 {
+    width: 250px;
+    height: 250px;
+    background: #38bdf8;
+    top: 40%;
+    left: 40%;
+    animation-delay: -2s;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
+    .nomad-cards {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .nomad-card.highlight {
+        transform: scale(1);
+    }
+    .nomad-card.highlight:hover {
+        transform: translateY(-10px);
+    }
     .hero-image-container {
         display: none;
     }
@@ -355,5 +475,71 @@ footer {
     }
     .cta-section h2 {
         font-size: 2rem;
+    }
+}
+
+/* Cookie Banner */
+.cookie-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    padding: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+.cookie-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1.5rem;
+}
+
+.cookie-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    flex: 1;
+}
+
+.cookie-content a {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.cookie-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .cookie-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    .cookie-buttons {
+        width: 100%;
+        justify-content: center;
     }
 }
