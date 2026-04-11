@@ -90,6 +90,37 @@ nav .container {
     letter-spacing: -0.5px;
 }
 
+/* Language Switcher */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.lang-btn {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+    color: var(--primary);
+}
+
+.lang-sep {
+    color: var(--text-muted);
+    opacity: 0.5;
+}
+
 /* Buttons */
 .btn {
     display: inline-flex;
