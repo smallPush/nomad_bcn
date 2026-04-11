@@ -356,6 +356,42 @@ footer {
     transform: translateY(0);
 }
 
+/* Cookie Banner */
+.cookie-banner {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 1.5rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.cookie-banner.show {
+    bottom: 0;
+}
+
+.cookie-content {
+    flex-grow: 1;
+}
+
+.cookie-content p {
+    margin: 0;
+    color: var(--text-main);
+    font-size: 0.95rem;
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .hero-image-container {
@@ -377,6 +413,17 @@ footer {
 }
 
 @media (max-width: 640px) {
+    .cookie-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .cookie-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+
     .bento-grid {
         grid-template-columns: 1fr;
     }

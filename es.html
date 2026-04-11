@@ -127,7 +127,36 @@
         </div>
     </footer>
 
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>Utilizamos cookies para mejorar su experiencia en nuestro sitio. Al continuar usando nuestro sitio, acepta nuestro uso de cookies.</p>
+        </div>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn btn-primary">Aceptar</button>
+        </div>
+    </div>
+
     <script>
+        // Cookie Consent Logic
+        document.addEventListener("DOMContentLoaded", function() {
+            const cookieBanner = document.getElementById("cookie-banner");
+            const acceptBtn = document.getElementById("accept-cookies");
+
+            // Check if user has already accepted cookies
+            if (!localStorage.getItem("cookiesAccepted")) {
+                // Small delay for animation
+                setTimeout(() => {
+                    cookieBanner.classList.add("show");
+                }, 500);
+            }
+
+            acceptBtn.addEventListener("click", function() {
+                localStorage.setItem("cookiesAccepted", "true");
+                cookieBanner.classList.remove("show");
+            });
+        });
+
         // Navbar scroll effect
         window.addEventListener('scroll', () => {
             const nav = document.getElementById('navbar');
