@@ -4,6 +4,7 @@ import PainPoint from '@/components/PainPoint';
 import HowItWorks from '@/components/HowItWorks';
 import Features from '@/components/Features';
 import Events from '@/components/Events';
+import AboutUs from '@/components/AboutUs';
 import Testimonials from '@/components/Testimonials';
 import Pricing from '@/components/Pricing';
 import Footer from '@/components/Footer';
@@ -17,6 +18,7 @@ export default function Home() {
       <HowItWorks />
       <Features />
       <Events />
+      <AboutUs />
       <Testimonials />
       <Pricing />
       <Footer />

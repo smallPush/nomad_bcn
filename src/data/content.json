@@ -9,8 +9,39 @@
     { "label": "How it Works", "href": "#how-it-works" },
     { "label": "What's Included", "href": "#features" },
     { "label": "City Events", "href": "#events" },
+    { "label": "Who we are", "href": "#about" },
     { "label": "Pricing", "href": "#pricing" }
   ],
+  "about": {
+    "title": "Built by expats, for expats.",
+    "subtitle": "We've been in your shoes. Our diverse team combined AI technology with local expertise to build the tool we wish we had when we moved to Barcelona.",
+    "team": [
+      {
+        "name": "Alejandro",
+        "role": "Legal Strategy (Spain)",
+        "bio": "A former gestor with over 10 years of experience navigating the Spanish bureaucracy. He ensures every form we generate is 100% compliant with the latest local regulations.",
+        "image": "🇪🇸"
+      },
+      {
+        "name": "Mei",
+        "role": "Operations (Asia)",
+        "bio": "Originally from Singapore, Mei lead the development of our automated processing engine. She specializes in making complex workflows feel simple and efficient.",
+        "image": "🇸🇬"
+      },
+      {
+        "name": "James",
+        "role": "Experience (UK)",
+        "bio": "James moved from London 5 years ago. He leads our Concierge support, ensuring that every user gets the human empathy and clarity they need during their move.",
+        "image": "🇬🇧"
+      },
+      {
+        "name": "Valentina",
+        "role": "Community (LATAM)",
+        "bio": "From Buenos Aires, Valentina manages our survival guides and community partnerships. She is your go-to expert for settling in and finding your tribe in BCN.",
+        "image": "🇦🇷"
+      }
+    ]
+  },
   "hero": {
     "badge": "🇪🇺 Exclusively for EU Citizens",
     "title": "Get your Spanish NIE.",
