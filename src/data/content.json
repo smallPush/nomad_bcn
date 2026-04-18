@@ -1,0 +1,85 @@
+{
+  "site": {
+    "name": "AutoExpat",
+    "suffix": "BCN",
+    "edition": "EU Edition",
+    "tagline": "The smart way to move to Barcelona."
+  },
+  "navigation": [
+    { "label": "How it Works", "href": "#how-it-works" },
+    { "label": "What's Included", "href": "#features" },
+    { "label": "Pricing", "href": "#pricing" }
+  ],
+  "hero": {
+    "badge": "🇪🇺 Exclusively for EU Citizens",
+    "title": "Get your Spanish NIE.",
+    "subtitle": "Without the headache.",
+    "description": "A smart, AI-assisted platform that holds your hand through the exact steps to get your EU Registry Certificate in Barcelona. Do it yourself, but never alone.",
+    "cta": "Get Your Custom Checklist",
+    "subtext": "Includes our exclusive \"First 30 Days in BCN\" survival guide."
+  },
+  "painPoint": {
+    "title": "Freedom of movement doesn't mean freedom from paperwork.",
+    "description": "As an EU citizen, you have the right to live in Barcelona. But figuring out the specific requirements for the \"Green NIE\", the Padron, and the right taxes can still take weeks of confusing research. We fix that."
+  },
+  "howItWorks": {
+    "title": "You take the steps. We hold your hand.",
+    "description": "Our platform doesn't do the physical appointments for you, but our automated processes ensure you show up 100% prepared.",
+    "steps": [
+      {
+        "icon": "ClipboardList",
+        "title": "1. Tell us about you",
+        "description": "Answer a few questions about your job and housing. Our AI instantly creates a personalized, step-by-step roadmap tailored to your exact situation."
+      },
+      {
+        "icon": "Bot",
+        "title": "2. AI Form Prep",
+        "description": "Stop fighting with Spanish PDFs. We automatically generate and validate your official forms (EX-18, Tasa 790) so they are perfect before you print them."
+      },
+      {
+        "icon": "Rocket",
+        "title": "3. Follow & Execute",
+        "description": "Follow our clear instructions to submit your docs. Once done, unlock your survival guide to master your first weeks in the city."
+      }
+    ]
+  },
+  "features": [
+    {
+      "id": "resident-kit",
+      "icon": "FileCheck",
+      "title": "The EU Resident Kit (NIE)",
+      "items": [
+        "Step-by-step guide to get your \"Empadronamiento\".",
+        "Auto-filled EX-18 Form (EU Registry).",
+        "Auto-filled Tax Form (Tasa 790-012).",
+        "Instructions on how to book your appointment legally.",
+        "Document checklist to ensure you are not rejected."
+      ]
+    },
+    {
+      "id": "survival-guide",
+      "icon": "Palmtree",
+      "title": "First 30 Days in BCN Guide",
+      "items": [
+        "Banking: Which banks accept you without a NIE yet.",
+        "Housing: Tips to spot rental scams in idealista.",
+        "Connectivity: Best mobile & internet providers for expats.",
+        "Transport: How to get the T-Mobilitat card easily.",
+        "Healthcare: Next steps to get your Social Security number."
+      ]
+    }
+  ],
+  "pricing": {
+    "title": "Clear, honest pricing.",
+    "description": "Agencies charge hundreds of euros just to fill out these forms. We automated it.",
+    "card": {
+      "badge": "Early Access Price",
+      "title": "EU Starter Kit",
+      "subtitle": "Everything you need to handle your paperwork confidently.",
+      "price": "€49",
+      "period": "/ one-time",
+      "cta": "Start Your Process Now",
+      "footer": "Instant access to your dashboard."
+    }
+  }
+}
