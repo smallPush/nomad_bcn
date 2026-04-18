@@ -71,17 +71,47 @@
     }
   ],
   "pricing": {
-    "title": "Clear, honest pricing.",
-    "description": "Agencies charge hundreds of euros just to fill out these forms. We automated it.",
-    "card": {
-      "badge": "Early Access Price",
-      "title": "EU Starter Kit",
-      "subtitle": "Everything you need to handle your paperwork confidently.",
-      "price": "€49",
-      "period": "/ one-time",
-      "cta": "Start Your Process Now",
-      "footer": "Instant access to your dashboard."
-    }
+    "title": "Professional relocation, automated costs.",
+    "description": "Traditional agencies charge thousands for these services. We combine AI precision with human expertise to make your move affordable.",
+    "plans": [
+      {
+        "id": "essential",
+        "badge": "Digital Only",
+        "title": "Essential DIY",
+        "subtitle": "Everything you need to handle your residency paperwork like a pro.",
+        "price": "€149",
+        "period": "/ one-time",
+        "features": [
+          "AI-Powered EX-18 Form Generation",
+          "Automated Tasa 790-012 Preparation",
+          "Step-by-step Padron Guide",
+          "Verified Document Checklist",
+          "Digital 'First 30 Days' Survival Guide"
+        ],
+        "cta": "Start Digital Pack",
+        "footer": "Instant digital access",
+        "highlight": false
+      },
+      {
+        "id": "concierge",
+        "badge": "Personal Attention",
+        "title": "Concierge Relocation",
+        "subtitle": "Dedicated human attention to handle every detail of your transition.",
+        "price": "€599",
+        "period": "/ one-time",
+        "features": [
+          "Everything in Essential Pack",
+          "Dedicated 1-on-1 WhatsApp Support",
+          "Social Security & Health (CAP) Setup",
+          "Bank Account Opening Assistance",
+          "Housing Contract Review & Safety Check",
+          "Pre-arrival Video Consultation"
+        ],
+        "cta": "Get Full Attention",
+        "footer": "Limited to 5 clients per month",
+        "highlight": true
+      }
+    ]
   },
   "successStories": {
     "title": "1000+ Expats already settled in BCN",
