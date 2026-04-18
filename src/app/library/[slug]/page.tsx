@@ -31,7 +31,7 @@ export default async function ArticlePage({ params }: PageProps) {
             className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-12 transition-colors font-medium"
           >
             <ArrowLeft size={20} />
-            Volver a la Biblioteca
+            Back to Library
           </Link>
           
           <div className="space-y-6">
@@ -48,7 +48,7 @@ export default async function ArticlePage({ params }: PageProps) {
             <div className="flex flex-wrap items-center gap-6 pt-4 text-slate-400">
               <div className="flex items-center gap-2">
                 <Calendar size={18} />
-                <span>Actualizado: {new Date(article.date).toLocaleDateString('es-ES')}</span>
+                <span>Updated: {new Date(article.date).toLocaleDateString('en-GB')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Tag size={18} />

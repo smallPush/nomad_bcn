@@ -28,7 +28,7 @@ const LibrarySearch = ({ articles }: LibrarySearchProps) => {
         <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 text-slate-400" size={24} />
         <input
           type="text"
-          placeholder="Buscar trámites, visados o términos importantes..."
+          placeholder="Search procedures, visas or important terms..."
           className="w-full bg-white border-2 border-slate-100 rounded-3xl py-6 pl-16 pr-8 text-xl focus:border-blue-500 focus:outline-none shadow-sm transition-all"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -70,7 +70,7 @@ const LibrarySearch = ({ articles }: LibrarySearchProps) => {
                 href={`/library/${article.slug}`}
                 className="flex items-center justify-center gap-2 w-full bg-slate-900 text-white py-4 rounded-2xl font-bold hover:bg-blue-600 transition-colors mt-auto"
               >
-                Leer Guía Completa
+                Read Full Guide
                 <ArrowRight size={18} />
               </Link>
             </motion.div>
@@ -78,8 +78,8 @@ const LibrarySearch = ({ articles }: LibrarySearchProps) => {
         ) : (
           <div className="col-span-full py-20 text-center">
             <BookOpen size={64} className="mx-auto text-slate-200 mb-6" />
-            <h3 className="text-2xl font-bold text-slate-900 mb-2">No se encontraron resultados</h3>
-            <p className="text-slate-500">Prueba con otros términos de búsqueda.</p>
+            <h3 className="text-2xl font-bold text-slate-900 mb-2">No results found</h3>
+            <p className="text-slate-500">Try with other search terms.</p>
           </div>
         )}
       </div>

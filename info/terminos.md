@@ -1,35 +1,35 @@
 ---
-title: "Términos Importantes"
-description: "Glosario de términos legales y administrativos esenciales para tu mudanza a Barcelona."
-category: "Glosario"
-tags: ["Glosario", "Conceptos", "Legal"]
+title: "Important Terms"
+description: "Glossary of essential legal and administrative terms for your move to Barcelona."
+category: "Glossary"
+tags: ["Glossary", "Concepts", "Legal"]
 date: "2026-04-18"
 ---
 
-# Glosario de Términos Importantes
+# Glossary of Important Terms
 
-Aquí encontrarás una lista de los conceptos clave que necesitas conocer para entender la burocracia en Barcelona.
+Here you will find a list of the key concepts you need to know to understand the bureaucracy in Barcelona.
 
-## NIE (Número de Identidad de Extranjero)
-El número básico de identificación para extranjeros en España. Es necesario para casi todo: abrir una cuenta bancaria, alquilar un piso, comprar un coche, etc.
+## NIE (Foreigner Identity Number)
+The basic identification number for foreigners in Spain. It is necessary for almost everything: opening a bank account, renting a flat, buying a car, etc.
 
-## TIE (Tarjeta de Identidad de Extranjero)
-La tarjeta física que acredita tu residencia legal en España si eres ciudadano de fuera de la UE.
+## TIE (Foreigner Identity Card)
+The physical card that proves your legal residence in Spain if you are a non-EU citizen.
 
-## Certificado de Registro de Ciudadano de la Unión
-También conocido como "NIE Verde". Es el documento que obtienen los ciudadanos de la UE para residir legalmente más de 3 meses.
+## EU Citizen Registration Certificate
+Also known as the "Green NIE". It is the document that EU citizens obtain to reside legally for more than 3 months.
 
 ## Empadronamiento (Padrón)
-El registro en el censo municipal. Acredita que vives en un domicilio específico en Barcelona. Es el primer paso para casi cualquier trámite.
+The registration in the municipal census. It proves that you live at a specific address in Barcelona. It is the first step for almost any administrative procedure.
 
 ## Cita Previa
-La cita obligatoria que debes solicitar online para acudir a cualquier oficina pública (Extranjería, Ayuntamiento, Policía).
+The mandatory appointment that you must request online to attend any public office (Foreigners Office, City Hall, Police).
 
 ## Modelo 790-012
-El formulario estándar para el pago de las tasas administrativas relacionadas con los trámites de extranjería.
+The standard form for paying administrative fees related to immigration procedures.
 
-## Seguridad Social (Número de Afiliación)
-El número necesario para trabajar y acceder al sistema público de salud.
+## Social Security (Affiliation Number)
+The number needed to work and access the public health system.
 
 ## CatSalut (TSI)
-La Tarjeta Sanitaria Individual que te da acceso a los centros de salud (CAP) y hospitales públicos en Cataluña.
+The Individual Health Card that gives you access to health centers (CAP) and public hospitals in Catalonia.

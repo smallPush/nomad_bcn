@@ -15,11 +15,11 @@ export default function LibraryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6 tracking-tight">
-              Biblioteca de <span className="text-blue-600">Información</span>
+              Information <span className="text-blue-600">Library</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Todo lo que necesitas saber sobre trámites, visados y vida en Barcelona. 
-              Actualizado según las últimas regulaciones de 2026.
+              Everything you need to know about procedures, visas, and life in Barcelona. 
+              Updated according to the latest 2026 regulations.
             </p>
           </div>
 
