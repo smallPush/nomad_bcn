@@ -81,5 +81,81 @@
       "cta": "Start Your Process Now",
       "footer": "Instant access to your dashboard."
     }
+  },
+  "successStories": {
+    "title": "1000+ Expats already settled in BCN",
+    "subtitle": "Real stories from people who moved with AutoExpat.",
+    "cases": [
+      {
+        "name": "Marco",
+        "country": "Italy",
+        "job": "Digital Nomad",
+        "text": "The EX-18 form generation was a lifesaver. I had my NIE in 10 days without speaking much Spanish.",
+        "outcome": "NIE in 10 Days"
+      },
+      {
+        "name": "Elena",
+        "country": "Germany",
+        "job": "Software Engineer",
+        "text": "Moving for a job was stressful, but the guide's checklist for the Padron made the appointment a breeze.",
+        "outcome": "Settled in 2 Weeks"
+      },
+      {
+        "name": "Lars",
+        "country": "Sweden",
+        "job": "Retired",
+        "text": "I was worried about healthcare. The guide explained exactly how to get my SIP card after the NIE.",
+        "outcome": "Healthcare Ready"
+      },
+      {
+        "name": "Sophie",
+        "country": "France",
+        "job": "Marketing",
+        "text": "Finding an apartment without a NIE is hard. The 'First 30 Days' guide showed me which agencies to trust.",
+        "outcome": "Found Home Fast"
+      },
+      {
+        "name": "Piotr",
+        "country": "Poland",
+        "job": "Freelancer",
+        "text": "The guide gave me the confidence to set up as an Autónomo. Clear, simple, and effective.",
+        "outcome": "Business Started"
+      },
+      {
+        "name": "Chloe",
+        "country": "Belgium",
+        "job": "HR Specialist",
+        "text": "Stayed after my masters. The transition from student to professional paperwork was handled perfectly.",
+        "outcome": "Visa Transitioned"
+      },
+      {
+        "name": "Sami",
+        "country": "Finland",
+        "job": "Tech Lead",
+        "text": "Moving a family is complex. The guide helped us with school registrations and social security numbers.",
+        "outcome": "Family Settled"
+      },
+      {
+        "name": "Marta",
+        "country": "Portugal",
+        "job": "Artist",
+        "text": "I love the BCN vibe. The guide made getting my T-Mobilitat and banking sorted in the first week.",
+        "outcome": "Fully Connected"
+      },
+      {
+        "name": "Hans",
+        "country": "Netherlands",
+        "job": "Entrepreneur",
+        "text": "Opened my cafe last month. Getting the NIE was the first hurdle, and AutoExpat made it invisible.",
+        "outcome": "Cafe Opened"
+      },
+      {
+        "name": "Isabella",
+        "country": "Austria",
+        "job": "Remote Worker",
+        "text": "The Tasa payment instructions were so clear. I've heard horror stories, but my experience was 10/10.",
+        "outcome": "Paperwork Done"
+      }
+    ]
   }
 }
