@@ -8,6 +8,7 @@
   "navigation": [
     { "label": "How it Works", "href": "#how-it-works" },
     { "label": "What's Included", "href": "#features" },
+    { "label": "City Events", "href": "#events" },
     { "label": "Pricing", "href": "#pricing" }
   ],
   "hero": {
