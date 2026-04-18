@@ -71,7 +71,10 @@ export default async function ArticlePage({ params }: PageProps) {
             prose-p:text-slate-600 prose-p:leading-relaxed
             prose-strong:text-slate-900
             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
-            prose-ul:list-disc prose-ol:list-decimal"
+            prose-ul:list-disc prose-ol:list-decimal
+            prose-table:border-collapse prose-table:w-full prose-table:my-8
+            prose-th:border prose-th:border-slate-200 prose-th:p-4 prose-th:bg-slate-50 prose-th:text-left
+            prose-td:border prose-td:border-slate-200 prose-td:p-4"
             dangerouslySetInnerHTML={{ __html: article.contentHtml || '' }}
           />
         </div>
