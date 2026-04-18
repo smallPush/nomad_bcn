@@ -52,7 +52,7 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <p className="text-slate-600 italic leading-relaxed mb-8">
-                  "{item.text}"
+                  &quot;{item.text}&quot;
                 </p>
               </div>
               
