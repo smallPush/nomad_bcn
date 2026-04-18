@@ -1,3 +1,11 @@
+---
+title: "Guía de Reubicación para EE.UU."
+description: "Estrategias y casos prácticos para ciudadanos estadounidenses que se mudan a Barcelona en 2026."
+category: "Legal"
+tags: ["USA", "Visado", "Nómada Digital", "Residencia No Lucrativa"]
+date: "2026-04-18"
+---
+
 # **Guía Estratégica y Casos Prácticos para la Reubicación Legal de Ciudadanos Estadounidenses en Barcelona (2026)**
 
 ## **1\. El Nuevo Paradigma Migratorio Español y la Derogación de la Golden Visa**

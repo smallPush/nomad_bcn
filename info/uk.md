@@ -1,3 +1,11 @@
+---
+title: "Guía de Inmigración para Reino Unido"
+description: "Análisis de las vías de inmigración y asentamiento jurídico en Barcelona para ciudadanos británicos post-Brexit."
+category: "Legal"
+tags: ["UK", "Brexit", "Visado", "Residencia"]
+date: "2026-04-18"
+---
+
 # **Análisis Exhaustivo de las Vías de Inmigración y Asentamiento Jurídico en Barcelona para Ciudadanos del Reino Unido (Escenario Post-Brexit 2026\)**
 
 ## **1\. Introducción y Arquitectura Legal del Escenario Migratorio Post-Brexit**

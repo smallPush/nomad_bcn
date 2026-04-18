@@ -10,6 +10,7 @@
     { "label": "What's Included", "href": "#features" },
     { "label": "City Events", "href": "#events" },
     { "label": "Who we are", "href": "#about" },
+    { "label": "Library", "href": "/library" },
     { "label": "Pricing", "href": "#pricing" }
   ],
   "about": {
